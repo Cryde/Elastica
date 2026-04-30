@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Added support for "search after" based pagination [#1645](https://github.com/ruflin/Elastica/issues/1645)
 * Added support for the `seq_no_primary_term` search option and the `if_seq_no` / `if_primary_term` index options to enable optimistic concurrency control [#2284](https://github.com/ruflin/Elastica/pull/2284)
 ### Changed
+* Bumped `codecov/codecov-action` from `v2` to `v5` and aligned it with the v5 input contract (`token`, `fail_ci_if_error: false`, conditional `use_oidc`).
 ### Deprecated
 ### Removed
 ### Fixed
